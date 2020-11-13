@@ -1,0 +1,16 @@
+name: ulsdpb
+# Environment to replicate estimation results for the ULSDPB-paper.
+dependencies:
+  - python=3.8.5
+  - numpy=1.19.2
+  - scipy=1.5.0
+  - numba=0.50.1
+  - blas=1.0=mkl
+  - intel-openmp=2019.4
+  - mkl=2019.4
+  - mkl-service=2.3.0
+  - mkl_fft=1.2.0
+  - mkl_random=1.1.1
+  - pip=20.2.4
+  - pip:
+    - lda==2.0.0
